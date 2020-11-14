@@ -16,6 +16,7 @@ public class StudentController {
 	
 	@RequestMapping (value="/details")
 	public String StudentDetails() {
+		System.out.println("This is StudentController classess");
 		return "Hello Student from StudentController Fresh";
 	}
 }
