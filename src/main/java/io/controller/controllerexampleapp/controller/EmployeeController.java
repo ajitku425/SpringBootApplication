@@ -9,6 +9,6 @@ public class EmployeeController {
 	@RequestMapping ("/details")
 	public String EmployeeDetails() {
 		System.out.println("This is EmployeeController classess");
-		return "Hello Employee from EmployeeController Fresh";
+		return "Hello Employee updated in GIT";
 	}
 }
