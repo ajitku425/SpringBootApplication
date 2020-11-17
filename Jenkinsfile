@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('---clean---') {
             steps {
-                bat "mvn clean"
+                bat "maven clean"
             }
         }
         stage('--test--') {
             steps {
-                bat "mvn test"
+                bat "maven test"
             }
         }
         stage('--package--') {
             steps {
-                bat "mvn package"
+                bat "maven package"
             }
         }
     }
